@@ -23,7 +23,7 @@
 
         <div id="encryption">
             <h5>1. Type a Message</h5>
-            <textarea  placeholder="Write your text here"   id="txtmsg" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="Write your text here" id="textmsg" name="" id="" cols="30" rows="10"></textarea>
 
             <h5>2. Set a Password</h5>
             <input type="password" name="" id="password">
@@ -33,15 +33,19 @@
 
         <div id="decryption">
             <h5>1. Paste encrypted emojis</h5>
-            <textarea  placeholder="Paste encrypted emojis here"   id="txtmsg" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="Paste encrypted emojis here" id="emojimsg" name="" id="" cols="30"
+                rows="10"></textarea>
 
             <h5>2. Type the Password</h5>
             <input type="password" name="" id="finalpassword">
-            <button id="decrypt-btn"><span><img src="asset/khulatala.png" alt=""></span>Decrypt Emoji</button>        </div>
+            <button id="decrypt-btn"><span><img src="asset/khulatala.png" alt=""></span>Decrypt Emoji</button>
+        </div>
+
+        <div id="result"></div>
     </div>
 
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
